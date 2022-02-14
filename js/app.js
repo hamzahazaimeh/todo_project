@@ -24,7 +24,7 @@ if(skipwelcomingmeesage == false){
     }
     else
     {
-        alert("Welcom " + Username)
+        alert("welcom " + Username)
     }
 
 }
