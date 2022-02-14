@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    display: inline;
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .rectangle {
+    height: 50px;
+    width: 100px;
+    position:inherit;
+    background-color: rgb(10, 219, 73);
+  }
+  .rectangle1 {
+    height: 50px;
+    width: 100px;
+    position:inherit;
+    background-color: rgb(248, 4, 4);
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241, 237, 237);
+    color: rgb(19, 15, 15);
+    text-align: center;
+ }
