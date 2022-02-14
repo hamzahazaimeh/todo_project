@@ -3,7 +3,7 @@ var Username = prompt('Hi! what is your name?');
 
 var UserGender = prompt( 'what is your Gender ?(male or female )');
 
-var UserAge = prompt( 'Please Enter Your Age ');
+var UserAge = prompt( 'Please Enter Your Age  ');
 
 if(UserAge<=0){
     alert( "the Age you entered less than or equal zero ")
@@ -19,7 +19,7 @@ if(skipwelcomingmeesage == false){
     }
     else if(UserGender == "female ")
     {
-        alert("welcome Ms " + Username );
+        alert("welcome Ms  " + Username );
 
     }
     else
