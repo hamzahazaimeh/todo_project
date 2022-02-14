@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="/style/about.css" >
 </head>
 <body>
     
@@ -25,51 +25,56 @@
             
                     </li>
                     </ul>
+                  
        </nav>
 
       </header>
 
 
    <main>
-    <section>
-
-<ul>
-<li>
+    <section >
+      <form class="form1">
     <img class="img1" style="height: 100px;" src="assets/Design Personal Logo Online.png" />
-  </li>
-  <li>
-    <label> Your Name  </label>
+  <div class="info">
+    <label for="txtarea" > Hamza </label>
     <textarea id="txtarea" placeholder="overview About Yourself" > OverView About Yourself </textarea>
-  </li>
-  </ul>
+  </div>
+</form>
       </section> 
 
-
-
-   <section>
-
+   <section  >
+<form class="form2">
   <div class="sec2">
-    <label> Full Name </label> <input type="text"/>
+    <label for="name"> Full Name </label> 
+    <input type="text" id="name" >
   </div>
-    <divclass="sec2">
-    <label> Email </label><input type="text"/>
-   </div>
-  <div class="sec2">
-    <label> Phone </label><input type="text"/>
-  </div>
+
     <div class="sec2">
-    <label> message </label><input type="text"/>
+    <label for="email"> Email </label>
+    <input type="text" id="email">
+   </div>
+   
+  <div class="sec2">
+    <label for="phone"> Phone </label>
+    <input type="text" id="phone">
+  </div>
+
+    <div class="sec2">
+    <label for="message"> message </label>
+    <textarea id="message"></textarea>
     </div>
+
   <div class="sec2">
     <input type="submit"/>
   </div>
-
+</form>
    </section>
    
    </main>
    <footer>
+    <div class="footer">
     &copy; Copyright 2022 HTML.am
-
+    </div>
    </footer>
 
 
