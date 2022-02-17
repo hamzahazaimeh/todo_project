@@ -30,10 +30,30 @@ if(skipwelcomingmeesage == false){
 }
 
 
-var UserQuestion = prompt( 'Now you should answer to three question  press skip to start ');
-var Question1 = prompt( 'Are you student ? ');
-var Question2 = prompt( 'Are you living in jordan ? ');
-var Question3 = prompt( 'Are you living with your family ? ');
+let yourAnswer=[];
+let theQuestions=["Are you student ? ","Are you living in jordan ?","Are you living with your family ?"];
+function showQuestions(arr) {
+    alert("I would like to ask you 3 more questions, this is a (Yes/No) questions , so your answer should be Yes or No , or your answer will save -invalid-");
+    for(let i=0;i<arr.length;i++)
+    {
+        checkAndAddToArray(prompt(arr[i]).toLowerCase()); 
+    }
+   
+};
 
-var answer = [Question1+Question2+Question3]
-console.log(answer);
+function checkAndAddToArray(answer) {
+    if (answer == "yes" || answer == "no") {
+        yourAnswer.push(answer);
+    }else{
+        yourAnswer.push("invalid")
+    }
+}
+
+function printArrayItems(arr) {
+    for(let i=0;i<arr.length ;i++)
+    {
+        console.log(arr[i]);
+    }
+}
+showQuestions(theQuestions);
+printArrayItems(yourAnswer);
